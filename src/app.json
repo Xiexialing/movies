@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/user/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "电影院",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "backgroundColor": "#000",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "电影",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/movies.png",
+        "selectedIconPath": "static/tabs/movies-selected.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/main",
+        "iconPath": "static/tabs/my.png",
+        "selectedIconPath": "static/tabs/my-selected.png"
+      }
+    ]
+  }
+}
